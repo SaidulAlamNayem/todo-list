@@ -47,7 +47,6 @@ todoBtn.addEventListener("click", function (event) {
 });
 
 todoList.addEventListener("click", function (e) {
-  console.log('testing');
   const clicked = e.target;
   // console.log(clicked);
   if (clicked.className == "check") {
